@@ -17,4 +17,5 @@ def update_counting_hash(hash, key)
     hash[key] = 1 
   end
   # if the provided key is present, increment its value by 1
+  return hash[key]
 end
